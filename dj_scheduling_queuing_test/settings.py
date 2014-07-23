@@ -12,7 +12,7 @@ DATABASES = {
 }
 
 # You must set settings.ALLOWED_HOSTS if DEBUG is False.
-DEBUG = True
+#DEBUG = True
 
 INSTALLED_APPS = (
 )
