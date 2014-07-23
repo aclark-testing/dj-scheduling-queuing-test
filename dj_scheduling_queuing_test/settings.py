@@ -7,7 +7,7 @@ DATABASES = {
     # You must define a 'default' database
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'djangossltest.db',
+        'NAME': 'dj_scheduling_queuing_test.db',
     }
 }
 
@@ -21,7 +21,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 # 'Settings' object has no attribute 'ROOT_URLCONF'
-ROOT_URLCONF = 'dj_scheduling_testing_test.urls'
+ROOT_URLCONF = 'dj_scheduling_queuing_test.urls'
 
 # The SECRET_KEY setting must not be empty.
 SECRET_KEY='ZU_hds)oM$%cn$Z8%88x%97Wjx2;8`'
